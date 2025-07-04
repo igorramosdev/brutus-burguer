@@ -62,7 +62,7 @@
 </head>
 
 <body>
-	
+
 	<!-- <div id="confetti-container" class="confetti-container"></div> -->
 
 	<div id="opacidade" class="fechar"></div>
@@ -107,7 +107,7 @@
 						<i class="fa-regular fa-clock horario" id="icone-relogio" style="display: none;"></i> 
 						<span class="horario" id="horario-fechamento" style="display: none;"></span>
 					</div>
-					
+
 					<script>
 						function atualizarStatusLoja() {
 							const agora = new Date();
@@ -115,7 +115,7 @@
 							const statusLoja = document.getElementById("status-loja");
 							const iconeRelogio = document.getElementById("icone-relogio");
 							const horarioFechamento = document.getElementById("horario-fechamento");
-					
+
 							if (horas >= 0 && horas < 2) {
 								statusLoja.textContent = "ABERTO";
 								horarioFechamento.textContent = "até 02:00";
@@ -131,7 +131,7 @@
 								horarioFechamento.style.display = "none";
 							}
 						}
-					
+
 						atualizarStatusLoja();
 					</script>
 				</div>
@@ -229,7 +229,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div id="hamburguer-artesanal" class="categoria">
 					<h2>Hambúrguer Artesanal</h2>
 					<div class="produtos">
@@ -396,7 +396,7 @@
 				</div>
 				<div class="categoria">
 					<div class="produtos">
-						
+
 						<!-- Avaliação 1 -->
 						<div class="item" style="display: flex; align-items: center; justify-content: space-between; padding: 10px; border-bottom: 1px solid #ddd;">
 							<div class="avaliacao" style="flex-grow: 1;">
@@ -420,8 +420,8 @@
 								</figure>
 							</div>
 						</div>
-				
-				
+
+
 						<!-- Avaliação 3 -->
 						<div class="item" style="display: flex; align-items: center; justify-content: space-between; padding: 10px; border-bottom: 1px solid #ddd;">
 							<div class="avaliacao" style="flex-grow: 1;">
@@ -675,12 +675,12 @@
 						</figure>
 					</div>
 				</div>
-				
+
 				<!-- Modal da Imagem -->
 				<div id="modalImagem" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8); justify-content: center; align-items: center;">
 					<img id="imagemExpandida" style="max-width: 90%; max-height: 90%; border-radius: 10px;">
 				</div>
-				
+
 				<script>
 					// Atualiza a data em todas as avaliações automaticamente
 					function formatarDataHoje() {
@@ -690,18 +690,18 @@
 						let ano = hoje.getFullYear();
 						return `${dia}/${mes}/${ano}`;
 					}
-				
+
 					document.querySelectorAll('.data-atual').forEach(el => {
 						el.innerText = formatarDataHoje();
 					});
-				
+
 					// Função para expandir a imagem
 					function expandirImagem(img) {
 						let modal = document.getElementById("modalImagem");
 						let imagemExpandida = document.getElementById("imagemExpandida");
 						imagemExpandida.src = img.src;
 						modal.style.display = "flex";
-				
+
 						// Fecha ao clicar fora da imagem
 						modal.onclick = function() {
 							modal.style.display = "none";
