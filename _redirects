@@ -1,0 +1,17 @@
+
+# Redirects for SPA routing
+/*    /index.html   200
+
+# Redirect specific burger pages
+/brutus-burguers-moda-da-casa/*   /brutus-burguers-moda-da-casa/index.html   200
+/brutus-burguers-brigadeiro/*     /brutus-burguers-brigadeiro/index.html     200
+/brutus-burguers-cheddar/*        /brutus-burguers-cheddar/index.html        200
+/brutus-burguers-gorgonzola-melt/* /brutus-burguers-gorgonzola-melt/index.html 200
+/brutus-burguers-picanha/*        /brutus-burguers-picanha/index.html        200
+/bruxa-do-mar/*                   /bruxa-do-mar/index.html                   200
+/classic-mania/*                  /classic-mania/index.html                  200
+/cole-oyl/*                       /cole-oyl/index.html                       200
+/combo-casal/*                    /combo-casal/index.html                    200
+/mania-atomic/*                   /mania-atomic/index.html                   200
+/mania-familia/*                  /mania-familia/index.html                  200
+/mania-individual/*               /mania-individual/index.html               200
