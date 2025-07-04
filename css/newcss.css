@@ -1,10 +1,10 @@
 h1,
 		h2 {
-			color: #5b0e5c;
+			color: #000000;
 		}
 
 		header#topo .cover {
-			background-color: #5b0e5c;
+			background-color: #000000;
 		}
 
 		header#topo .info h1 {
@@ -29,11 +29,11 @@ h1,
 		}
 
 		footer {
-			background: #5b0e5c;
+			background: #000000;
 		}
 
 		footer#carrinho .container .icone span {
-			color: #5b0e5c;
+			color: #000000;
 		}
 
 		.btn,
@@ -43,7 +43,7 @@ h1,
 		.btnGoogle,
 		.btnEmail,
 		.btnSemCadastro {
-			background: #5b0e5c;
+			background: #000000;
 		}
 
 		.qtdeProduto i:hover {
@@ -51,7 +51,7 @@ h1,
 		}
 
 		.lista .item .col .nomeProduto {
-			color: #5b0e5c;
+			color: #000000;
 		}
 
 		main#lista .produtos .item a:hover {
@@ -64,18 +64,18 @@ h1,
 
 		#pedido .entrega .radio label input[type="radio"]:checked,
 		#pedido .entrega .radio label:hover {
-			background: #5b0e5c;
+			background: #000000;
 		}
 
 		#pedido .pagamentos input[type="radio"]:checked+label::before,
 		#detalhesProduto .info2 .opcoes input[type="checkbox"]:checked+label::before,
 		#pedido .trocarPontos input[type="checkbox"]:checked+label::before {
-			background-color: #5b0e5c;
-			border: 2px solid #5b0e5c;
+			background-color: #000000;
+			border: 2px solid #000000;
 		}
 
 		.selecionado {
-			border: 2px solid #5b0e5c;
+			border: 2px solid #000000;
 		}
 
 		#meuCarrinho button.fechar,
@@ -84,16 +84,16 @@ h1,
 		}
 
 		span.estoque i {
-			color: #5b0e5c;
+			color: #000000;
 		}
 
     h1,
 		h2 {
-			color: #5b0e5c;
+			color: #000000;
 		}
 
 		header#topo .cover {
-			background-color: #5b0e5c;
+			background-color: #000000;
 		}
 
 		header#topo .info h1 {
@@ -118,11 +118,11 @@ h1,
 		}
 
 		footer {
-			background: #5b0e5c;
+			background: #000000;
 		}
 
 		footer#carrinho .container .icone span {
-			color: #5b0e5c;
+			color: #000000;
 		}
 
 		.btn,
@@ -132,7 +132,7 @@ h1,
 		.btnGoogle,
 		.btnEmail,
 		.btnSemCadastro {
-			background: #5b0e5c;
+			background: #000000;
 		}
 
 		.qtdeProduto i:hover {
@@ -140,7 +140,7 @@ h1,
 		}
 
 		.lista .item .col .nomeProduto {
-			color: #5b0e5c;
+			color: #000000;
 		}
 
 		main#lista .produtos .item a:hover {
@@ -153,18 +153,18 @@ h1,
 
 		#pedido .entrega .radio label input[type="radio"]:checked,
 		#pedido .entrega .radio label:hover {
-			background: #5b0e5c;
+			background: #000000;
 		}
 
 		#pedido .pagamentos input[type="radio"]:checked+label::before,
 		#detalhesProduto .info2 .opcoes input[type="checkbox"]:checked+label::before,
 		#pedido .trocarPontos input[type="checkbox"]:checked+label::before {
-			background-color: #5b0e5c;
-			border: 2px solid #5b0e5c;
+			background-color: #000000;
+			border: 2px solid #000000;
 		}
 
 		.selecionado {
-			border: 2px solid #5b0e5c;
+			border: 2px solid #000000;
 		}
 
 		#meuCarrinho button.fechar,
@@ -173,7 +173,7 @@ h1,
 		}
 
 		span.estoque i {
-			color: #5b0e5c;
+			color: #000000;
 		}
 
 .wf-force-outline-none[tabindex="-1"]:focus {
